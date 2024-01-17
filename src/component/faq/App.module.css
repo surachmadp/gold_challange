@@ -1,0 +1,96 @@
+.faq {
+  width: 1168px;
+  height: 344px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 100px auto;
+}
+
+.faq .titleFaq {
+  color: #000;
+  font-family: Arial;
+  font-size: 24px;
+  width: 368px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 150% */
+}
+
+.faq .textFaq {
+  color: #000;
+  font-family: Arial;
+  font-size: 14px;
+  font-style: normal;
+  width: 368px;
+  font-weight: 700;
+  line-height: 20px; /* 142.857% */
+  margin-top: 16px;
+}
+
+.faq .listFaq {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  margin-left: 132px;
+}
+
+.listFaq .holderFaq {
+  display: flex;
+  /* justify-content: center; */
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 668px;
+  height: 56px;
+  border-radius: 4px;
+  border: 1px solid #d4d4d4;
+  background: #fff;
+}
+
+.holderFaq .textHolder {
+  color: #000;
+  font-family: Arial;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 142.857% */
+  margin-left: 24px;
+}
+
+.holderFaq .dropdownHolder {
+  width: 24px;
+  height: 24px;
+  margin-right: 24px;
+}
+
+@media only screen and (max-width: 360px) {
+  .faq {
+    width: 360px;
+    height: fit-content;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+  }
+
+  .faq .titleFaq {
+    width: 328px;
+    text-align: center;
+  }
+
+  .faq .textFaq {
+    text-align: center;
+    width: 328px;
+  }
+
+  .faq .listFaq {
+    margin-top: 4px;
+    margin-left: 0px;
+  }
+
+  .listFaq .holderFaq {
+    width: 328px;
+  }
+}

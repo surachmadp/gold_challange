@@ -1,0 +1,130 @@
+.ourServices {
+  /* margin-top: 100px;
+  margin-left: 206px;
+  margin-right: 207px; */
+  margin: 100px auto;
+
+  width: 1027px;
+  height: 428px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.textSubtitle {
+  color: #000;
+  font-family: Arial;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 150% */
+}
+
+.text {
+  color: #000;
+  font-family: Arial;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 142.857% */
+}
+.ourServices .imageServices {
+  width: 459px;
+  height: 428px;
+}
+
+.ourServices .titleServices {
+  margin-top: 36px;
+  margin-left: 86px;
+  width: 468px;
+}
+
+.ourServices .textServices {
+  margin-top: 24px;
+  margin-left: 86px;
+  margin-bottom: 18px;
+  width: 468px;
+  color: #000;
+  font-family: Arial;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 142.857% */
+}
+
+.ourServices .listServices {
+  margin-left: 86px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.listServices .check {
+  width: 24px;
+  height: 24px;
+  margin-right: 16px;
+}
+
+.listServices .textAlign {
+  align-items: center;
+}
+
+@media only screen and (max-width: 360px) {
+  .ourServices {
+    /* margin: 60px auto; */
+    margin: 60px auto;
+    width: 360px;
+    height: fit-content;
+  }
+  .ourServices .imageServices {
+    /* Group 54 */
+    /* align-self: center; */
+    height: fit-content;
+    margin-left: 54px;
+    width: 252px;
+    height: 228px;
+  }
+
+  .ourServices img {
+    /* Group 54 */
+    width: 252px;
+    height: 228px;
+  }
+
+  .ourServices .titleServices {
+    margin-top: 24px;
+    /* margin-left: 16px; */
+    width: 328px;
+    margin-left: 16px;
+  }
+
+  .ourServices .textServices {
+    margin-top: 24px;
+    /* margin-left: 16px; */
+    width: 328px;
+    margin-left: 16px;
+  }
+
+  .ourServices .listServices {
+    margin-left: 16px;
+    margin-bottom: 15px;
+    width: 255px;
+  }
+
+  .listServices .check {
+    width: 24px;
+    height: 24px;
+    margin-right: 16px;
+  }
+
+  .listServices img {
+    width: 24px;
+    height: 24px;
+    /* margin-right: 16px; */
+  }
+
+  .listServices .textAlign {
+    align-items: center;
+  }
+}

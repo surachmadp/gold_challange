@@ -1,0 +1,64 @@
+.headerBaru {
+  height: 97px;
+}
+
+.headerBaru .blue {
+  background: #f1f3ff;
+}
+
+.headerBaru .tinggi {
+  height: 97px;
+}
+
+.headerBaru .marginKanan {
+  margin-right: 249px;
+  /* width: 327px; */
+}
+
+.headerBaru .logo {
+  margin-left: 136px;
+  width: 100px;
+  height: 34px;
+  background: var(--Primary-DarkBlue-04, #0d28a6);
+  /* width: 327px; */
+}
+
+.marginText {
+  margin-right: 30px;
+
+  /* width: 327px; */
+}
+
+.canvasUkuran {
+  display: flex;
+  justify-content: flex-end;
+  width: 100px;
+}
+
+@media only screen and (max-width: 360px) {
+  .headerBaru .logo {
+    margin-left: 9px;
+    width: 100px;
+    height: 34px;
+    background: var(--Primary-DarkBlue-04, #0d28a6);
+    /* width: 327px; */
+  }
+
+  offcanvas-end show {
+    width: 180px !important;
+  }
+
+  offcanvas {
+    --bs-offcanvas-width: 180px !important;
+  }
+
+  navbar-nav {
+    margin-bottom: 16px;
+    color: #000;
+    font-family: Arial;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+  }
+}
