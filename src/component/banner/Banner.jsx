@@ -3,6 +3,7 @@
 import mobil from "../../assets/images/img_car.png";
 
 import {Button} from "react-bootstrap";
+import {Link} from "react-router-dom";
 
 import styles from "./App.module.css";
 function Banner() {
@@ -18,7 +19,9 @@ function Banner() {
           untuk sewa mobil selama 24 jam.
         </div>
         <div className={styles.heroButton}>
-          <Button variant="success">Mulai Sewa Mobil</Button>
+          <Link to={"pencarian"}>
+            <Button variant="success">Mulai Sewa Mobil</Button>
+          </Link>
         </div>
         <div className={styles.heroImage}>
           <img src={mobil} alt="mobil" />

@@ -1,0 +1,209 @@
+.text {
+  color: var(--Neutral-04, #3c3c3c);
+  /* Text S/Light */
+  font-family: Rubik;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 18px; /* 150% */
+}
+
+.cariMobil {
+  display: flex;
+  align-items: flex-start;
+  width: 1047px;
+  height: 106px;
+  z-index: 1 !important;
+  position: relative; /* position must be set for z-index to work */
+  margin: -50px auto 0px;
+  /* margin: 100px auto; */
+  border-radius: 8px;
+  background: var(--Neutral-01, #fff);
+  /* Shadow/High */
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+}
+
+.frame {
+  display: flex;
+  align-items: flex-start;
+  width: 999px;
+  height: 58px;
+  /* background: #000; */
+  gap: 16px;
+  margin: 24px;
+}
+
+.frame .input {
+  flex-direction: column;
+  /* background: yellow; */
+  align-items: flex-start;
+  gap: 4px;
+  width: 208px;
+  height: 58px;
+}
+
+.frame .label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  /* background: green; */
+  /* align-items: center; */
+}
+
+.frame .isi {
+  margin-top: 4px;
+  display: flex;
+  padding: 9px 12px;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  /* background: red; */
+  border-radius: 2px;
+  border: 1px solid var(--Neutral-40, #ccc);
+  background: var(--Neutral-10, #fff);
+  width: 208px;
+  height: 36px;
+}
+
+.frame .textIsi {
+  /* color: var(--Neutral-50, #999); */
+  margin: 9px auto;
+  width: 184px;
+  border-radius: 2px;
+  background: #fffffc;
+  /* Text S/Light */
+  font-family: Rubik;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 18px;
+}
+
+.frame .buttonCari {
+  display: flex;
+  height: 58px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+}
+
+.frame Button {
+  height: 36px;
+  /* width: 92px; */
+  border-radius: 2px;
+  background: var(--Primary-LimeGreen-04, #5cb85f);
+  border-color: var(--Primary-LimeGreen-04, #5cb85f);
+  display: flex;
+  padding: 8px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  color: var(--Neutral-01, #fff);
+  font-family: Arial;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 142.857% */
+}
+
+input {
+  border: 0px;
+}
+
+.pencarian {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1047px;
+  /* height: 478; */
+  align-items: flex-start;
+  gap: 24px;
+  margin: 40px auto;
+}
+
+.pencarian .card {
+  width: 333px;
+  height: 478px;
+  display: flex;
+  padding: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+
+  border-radius: 8px;
+  background: var(--Neutral-01, #fff);
+
+  /* Shadow/Low */
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.card img {
+  width: 285px;
+  height: 222px;
+}
+
+.card .judul {
+  color: var(--Neutral-01, #000);
+  font-family: Arial;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+  margin-top: 16px;
+}
+
+.card .harga {
+  margin-top: 8px;
+  align-self: stretch;
+  color: var(--Neutral-01, #000);
+  font-family: Arial;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+}
+
+.card .deskripsi {
+  margin-top: 8px;
+  color: var(--Neutral-01, #000);
+  font-family: Arial;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 142.857% */
+}
+
+/* .card button {
+  display: flex;
+  height: 48px;
+  padding: 8px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  flex: 1 0 0;
+  border-radius: 2px;
+  background: var(--Primary-LimeGreen-04, #5cb85f);
+} */
+
+.card Button {
+  /* display: inline; */
+  display: flex;
+  margin-top: 24px;
+  width: 285px;
+  height: 48px;
+  padding: 8px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  flex: 1 0 0;
+  border-radius: 2px;
+  background: var(--Primary-LimeGreen-04, #5cb85f);
+  border-color: var(--Primary-LimeGreen-04, #5cb85f);
+  color: var(--Neutral-01, #fff);
+  font-family: Arial;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 142.857% */
+}
