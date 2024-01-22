@@ -10,10 +10,12 @@ import Fotter from "../component/fotter/Fotter";
 // import Slidernew from "./component/Slidernew";
 
 const Carimobil = () => {
+  // const buttonHidden = "hidden = true";
+
   return (
     <>
       <Navbarbaru />
-      <Banner />
+      <Banner hiddenbtn={true} />
       <Searchmobil />
       {/* <Services /> */}
       {/* <Whyus /> */}

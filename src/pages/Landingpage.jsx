@@ -7,7 +7,8 @@ import Ctabanner from "../component/ctaBanner/Ctabanner";
 import Faq from "../component/faq/Faq";
 import Fotter from "../component/fotter/Fotter";
 // import Slidernew from "./component/Slidernew";
-
+import Caroseal from "../component/caroseal/Caroseal";
+// import Testimonial from "../component/testimonial/Testimonial";
 const Landingpage = () => {
   return (
     <>
@@ -17,6 +18,7 @@ const Landingpage = () => {
       <Banner />
       <Services />
       <Whyus />
+      <Caroseal />
       {/* <Testimonial /> */}
       <Ctabanner />
       <Faq />

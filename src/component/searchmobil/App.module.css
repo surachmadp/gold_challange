@@ -140,7 +140,7 @@ input {
 
 .card img {
   width: 285px;
-  height: 222px;
+  height: 210px;
 }
 
 .card .judul {
@@ -200,10 +200,17 @@ input {
   border-radius: 2px;
   background: var(--Primary-LimeGreen-04, #5cb85f);
   border-color: var(--Primary-LimeGreen-04, #5cb85f);
+}
+
+.card a {
   color: var(--Neutral-01, #fff);
   font-family: Arial;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
   line-height: 20px; /* 142.857% */
+}
+
+a:link {
+  text-decoration: none;
 }

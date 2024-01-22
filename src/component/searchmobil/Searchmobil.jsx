@@ -2,6 +2,7 @@ import {useState} from "react";
 import axios from "axios";
 
 import {Button} from "react-bootstrap";
+// import {Link} from "react-router-dom";
 
 import styles from "./App.module.css";
 
@@ -108,11 +109,10 @@ function Searchmobil() {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </div>
-              <div className={styles.heroButton1}>
-                <Button variant="success" onClick={() => console.log(car.id)}>
-                  Pilih Mobil
-                </Button>
-              </div>
+
+              <Button variant="success" onClick={() => console.log(car.id)}>
+                <a href={`detail/${car.id}`}>Pilih Mobil</a>
+              </Button>
             </div>
           </div>
         ))}

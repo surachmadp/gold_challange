@@ -6,7 +6,7 @@ import {Button} from "react-bootstrap";
 import {Link} from "react-router-dom";
 
 import styles from "./App.module.css";
-function Banner() {
+function Banner({hiddenbtn = false}) {
   return (
     <>
       <div className={styles.heroCar}>
@@ -20,7 +20,12 @@ function Banner() {
         </div>
         <div className={styles.heroButton}>
           <Link to={"pencarian"}>
-            <Button variant="success">Mulai Sewa Mobil</Button>
+            {/* <Button hidden={props.test} variant="success"> */}
+            {/* {hiddenbtn && <Button variant="success">Mulai Sewa Mobil</Button>} */}
+
+            <Button hidden={hiddenbtn} variant="success">
+              Mulai Sewa Mobil
+            </Button>
           </Link>
         </div>
         <div className={styles.heroImage}>

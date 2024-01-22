@@ -6,7 +6,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import styles from "./App.module.css";
 
-function OffcanvasExample() {
+function OffcanvasExample(props) {
   return (
     <>
       <div className={styles.headerBaru}>
@@ -58,6 +58,8 @@ function OffcanvasExample() {
           </Navbar>
         ))}
       </div>
+      {/* {props.headerTinggi()} */}
+      {props.HeaderTinggi}
     </>
   );
 }

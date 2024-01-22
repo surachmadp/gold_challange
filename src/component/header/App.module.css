@@ -10,6 +10,7 @@
 
 .headerBaru .tinggi {
   height: 97px;
+  /* height: 220px; */
 }
 
 .headerBaru .marginKanan {
@@ -62,5 +63,11 @@
     font-style: normal;
     font-weight: 400;
     line-height: 20px; /* 142.857% */
+  }
+
+  .detailBiru {
+    /* height: 97px; */
+    height: 220px !important;
+    background: #f1f3ff;
   }
 }

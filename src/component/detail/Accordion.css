@@ -1,0 +1,15 @@
+.accordion {
+  --bs-accordion-active-bg: none;
+  --bs-accordion-btn-padding-x: none;
+  --bs-accordion-border-color: none;
+  --bs-accordion-btn-padding-y: none;
+}
+
+.accordion-button {
+  color: var(--Neutral-01, #000);
+  font-family: Arial;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 142.857% */
+}
