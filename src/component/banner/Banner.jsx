@@ -2,11 +2,11 @@
 // import mobil from "../assets/images/img_car.png";
 import mobil from "../../assets/images/img_car.png";
 
-import {Button} from "react-bootstrap";
-import {Link} from "react-router-dom";
+import { Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 import styles from "./App.module.css";
-function Banner({hiddenbtn = false}) {
+function Banner({ hiddenbtn = false }) {
   return (
     <>
       <div className={styles.heroCar}>

@@ -1,8 +1,8 @@
 import axios from "axios";
-import {useEffect, useState} from "react";
-import {Link, useParams} from "react-router-dom";
-import {HEADERS} from "./constants";
-import {formatCurrency} from "./helpers";
+import { useEffect, useState } from "react";
+import { Link, useParams } from "react-router-dom";
+import { HEADERS } from "./constants";
+import { formatCurrency } from "./helpers";
 import styles from "./App.module.css";
 import "./Accordion.css";
 // accordian untuk show text
@@ -13,7 +13,7 @@ import tombolbawah from "../../assets/images/fi_users.svg";
 const DETAIL_URL = "https://api-car-rental.binaracademy.org/admin/car";
 
 const Detail = () => {
-  const {id} = useParams();
+  const { id } = useParams();
   const [data, setData] = useState({});
 
   useEffect(() => {
