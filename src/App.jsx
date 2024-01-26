@@ -4,7 +4,7 @@ import wanita from "./assets/images/img_service.png";
 
 // import App from "./App.jsx";
 
-import {Button} from "react-bootstrap";
+import { Button } from "react-bootstrap";
 function App() {
   return (
     <>

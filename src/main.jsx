@@ -1,13 +1,13 @@
+import "bootstrap/dist/css/bootstrap.min.css";
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "bootstrap/dist/css/bootstrap.min.css";
-import Landingpage from "./pages/Landingpage";
+import "./index.css";
 import Carimobil from "./pages/Carimobil";
 import Detailmobil from "./pages/Detailmobil";
-import "./index.css";
+import Landingpage from "./pages/Landingpage";
 
 // untuk bikin router
-import {createBrowserRouter, RouterProvider} from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const router = createBrowserRouter([
   {
